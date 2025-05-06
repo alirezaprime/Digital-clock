@@ -13,7 +13,7 @@ export const Clock = ({ h24 = true }) => {
   const [minute, setMinute] = useState(0);
   const [second, setSecond] = useState(0);
   const [day, setDay] = useState(0);
-  // const [pm    , setPm    ] = useState(false);
+  const [pm, setPm] = useState(false);
 
   useEffect(() => {
     const update = () => {
